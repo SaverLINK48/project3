@@ -175,7 +175,7 @@ article.third ul li {
 #map {
   height: 400px;
   width: 600px;
-  border: 5px solid rgb(65, 30, 47);
+  border: 6px solid rgb(65, 30, 47);
   margin-top: 20px;
   position: relative;
   margin-right: auto;
@@ -185,11 +185,11 @@ article.third ul li {
 button {
   text-align: center;
   text-decoration: none;
-  width: 275px;
+  width: 210px;
   font-size: 20px;
   color: rgb(65, 30, 47);
   background-color: rgb(255, 180, 147);
-  border: rgb(65, 30, 47);
+  border: 3px solid rgb(65, 30, 47);
 }
 
 #footer ul,
