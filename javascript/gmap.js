@@ -11,7 +11,7 @@ function myMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     zoom:10,
   center: mexicocity});
-  pin = new google.maps.pin({
+  pin = new google.maps.Marker({
     position:mexicocity,
     animation:google.maps.Animation.DROP,
   map: map });
@@ -19,7 +19,7 @@ function myMap() {
 function travel(location, myplaces) {
 	map.panTo(location);
 	map.setZoom(10);
-	pin = new google.maps.pin({
+	pin = new google.maps.Marker({
 		position: location,
 			animation:google.maps.Animation.DROP,
 		map: map
