@@ -17,22 +17,22 @@ function myMap() {
   map: map });
 }
 function travel(location, myplaces) {
-	map.panTo(location);
-	map.setZoom(10);
-	pin = new google.maps.Marker({
-		position: location,
-			animation:google.maps.Animation.DROP,
-		map: map
-	});
-	if(myplaces==locations[0]){
-	}
-	else if(myplaces==locations[1]){
-	}
-	else if(myplaces==locations[2]){
-	}
-	else if(myplaces==locations[3]) {
-	}
-	else {
-	}
+  map.panTo(location);
+  map.setZoom(10);
+  pin = new google.maps.Marker({
+    position: location,
+      animation:google.maps.Animation.DROP,
+    map: map
+    });
+  if(myplaces==locations[0]){
+  }
+  else if(myplaces==locations[1]){
+  }
+  else if(myplaces==locations[2]){
+  }
+  else if(myplaces==locations[3]) {
+  }
+  else {
+  }
 }
 
