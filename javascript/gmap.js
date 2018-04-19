@@ -12,6 +12,10 @@
                        }
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
                        }
+        var pin = new google.maps.Marker({
+        position:chicago_il,
+        animation:google.maps.Animation.BOUNCE,
+        map: map });
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMn9W7-6KgR3FW0gfZLPFR96jcvaKJkrQ&callback=myMap">
     </script>
