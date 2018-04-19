@@ -168,6 +168,29 @@ article.third ul li {
   text-align: center;
 }
 
+.dart {
+	text-align: center;
+}
+
+#map {
+  height: 400px;
+  width: 600px;
+  border: 5px solid rgb(65, 30, 47);
+  margin-top: 20px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;;	
+}
+
+button {
+  text-align: center;
+  text-decoration: none;
+  width: 275px;
+  font-size: 20px;
+  color: rgb(65, 30, 47);
+  background-color: rgb(255, 180, 147);
+  border: rgb(65, 30, 47);
+}
 
 #footer ul,
 #footer li {
